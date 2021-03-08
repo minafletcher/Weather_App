@@ -6,6 +6,8 @@
 
  .Small {
     color: red;
+    padding-top: 20px;
+    font-size: 15px;
 }
 
 .Loader {
