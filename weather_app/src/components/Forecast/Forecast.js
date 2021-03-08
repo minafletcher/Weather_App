@@ -48,8 +48,8 @@ const Forecast = () => {
     });
    }
    return (
-    <div>
-           <h2>Find Current Weather Conditions</h2>
+    <div className={classes.box}>
+           <h2>What's the Weather Like in Your City?</h2>
            <form onSubmit={getForecast}>
                 <input
                     type="text"

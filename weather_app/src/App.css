@@ -5,7 +5,8 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50px;
+  width: 50px;
   pointer-events: none;
 }
 
@@ -16,12 +17,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 300px;
-  display: flex;
+  min-height: 50px;
+  display: block;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  text-align: left;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -45,14 +44,13 @@ main {
   padding: 25px;
 }
 footer {
-  padding: 2px;
-  min-height: 100px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #EEEEEE;
   font-size: small;
   text-align: center;
+  color: white;
 }
 header {
   padding: 25px;
